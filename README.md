@@ -1,3 +1,5 @@
+![Screenshot of the FX version of skin with backlit colors](./screenshots/screenshot-gba-v1-fx.png)
+
 # Onyx Delta Skin
 
 This is the home for the Onyx skin for the Delta app.
