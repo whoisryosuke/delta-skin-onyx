@@ -1,0 +1,214 @@
+{
+  "name": "Onyx FX (whoisryosuke)",
+  "identifier": "com.whoisryosuke.gba.onyxfx",
+  "gameTypeIdentifier": "com.rileytestut.delta.game.gba",
+  "debug": false,
+  "representations": {
+    "iphone": {
+      "edgeToEdge": {
+        "portrait": {
+          "assets": {
+            "small": "iphone_edgetoedge_portrait_small.png",
+            "medium": "iphone_edgetoedge_portrait_medium.png",
+            "large": "iphone_edgetoedge_portrait_large.png"
+          },
+          "items": [
+            {
+              "inputs": {
+                "up": "up",
+                "down": "down",
+                "left": "left",
+                "right": "right"
+              },
+              "frame": {
+                "x": 30,
+                "y": 564,
+                "width": 150,
+                "height": 150
+              },
+              "extendedEdges": {
+                "top": 30,
+                "bottom": 30,
+                "left": 30,
+                "right": 30
+              }
+            },
+            {
+              "inputs": ["start"],
+              "frame": {
+                "x": 245,
+                "y": 800,
+                "width": 24,
+                "height": 24
+              }
+            },
+            {
+              "inputs": ["select"],
+              "frame": {
+                "x": 125,
+                "y": 800,
+                "width": 24,
+                "height": 24
+              }
+            },
+            {
+              "inputs": ["quickSave"],
+              "frame": {
+                "x": 17,
+                "y": 370,
+                "width": 109,
+                "height": 45
+              }
+            },
+            {
+              "inputs": ["quickLoad"],
+              "frame": {
+                "x": 267,
+                "y": 370,
+                "width": 109,
+                "height": 45
+              }
+            },
+            {
+              "inputs": ["toggleFastForward"],
+              "frame": {
+                "x": 142,
+                "y": 370,
+                "width": 109,
+                "height": 45
+              }
+            },
+            {
+              "inputs": ["a"],
+              "frame": {
+                "x": 305.6,
+                "y": 571.6,
+                "width": 55,
+                "height": 55
+              },
+              "extendedEdges": {
+                "top": 30,
+                "bottom": 15,
+                "left": 30,
+                "right": 30
+              }
+            },
+            {
+              "inputs": ["b"],
+              "frame": {
+                "x": 226.6,
+                "y": 650.6,
+                "width": 55,
+                "height": 55
+              },
+              "extendedEdges": {
+                "top": 30,
+                "left": 15,
+                "right": 15,
+                "bottom": 15
+              }
+            },
+            {
+              "inputs": ["l"],
+              "frame": {
+                "x": 0,
+                "y": 473.5,
+                "width": 125,
+                "height": 45
+              }
+            },
+            {
+              "inputs": ["r"],
+              "frame": {
+                "x": 267,
+                "y": 473.5,
+                "width": 125,
+                "height": 45
+              }
+            },
+            {
+              "inputs": ["menu"],
+              "frame": {
+                "x": 179,
+                "y": 447,
+                "width": 35,
+                "height": 32
+              },
+              "extendedEdges": {
+                "bottom": 10,
+                "top": 10,
+                "right": 10,
+                "left": 10
+              }
+            }
+          ],
+          "mappingSize": {
+            "width": 393,
+            "height": 852
+          },
+          "extendedEdges": {
+            "top": 7,
+            "bottom": 7,
+            "left": 7,
+            "right": 7
+          },
+          "screens": [
+            {
+              "inputFrame": {
+                "x": 0,
+                "y": 0,
+                "width": 256,
+                "height": 224
+              },
+              "outputFrame": {
+                "x": -397,
+                "y": 0,
+                "width": 983,
+                "height": 852
+              },
+              "filters": [
+                {
+                  "name": "CIColorControls",
+                  "parameters": {
+                    "inputBrightness": -0.15
+                  }
+                },
+                {
+                  "name": "CIGaussianBlur",
+                  "parameters": {
+                    "inputRadius": 12
+                  }
+                },
+                {
+                  "name": "CICrop",
+                  "parameters": {
+                    "inputRectangle": {
+                      "x": 10,
+                      "y": 10,
+                      "width": 256,
+                      "height": 214
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "inputFrame": {
+                "x": 0,
+                "y": 0,
+                "width": 240,
+                "height": 160
+              },
+              "outputFrame": {
+                "x": 12,
+                "y": 86,
+                "width": 369,
+                "height": 247
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
